@@ -25,13 +25,12 @@ class _AddContentState extends State<AddContent> {
             },
             child: Scaffold(
               backgroundColor: Colors.black.withOpacity(0.2),
-              body: SafeArea(
-                child: addPage(),
-              ),
+              body: addPage(),
             ),
           )
         : addPage();
   }
+
   Widget addPage() {
     return Column(
       children: [

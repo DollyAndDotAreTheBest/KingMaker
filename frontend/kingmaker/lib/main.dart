@@ -81,6 +81,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      color: Colors.white,
       title: 'kingMaker',
       theme: ThemeData(
         fontFamily: 'PretendardBold',
@@ -88,6 +89,7 @@ class MyApp extends StatelessWidget {
       ),
       navigatorKey: navigatorKey,
       home: MaterialApp(
+        color: Colors.white,
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           fontFamily: 'PretendardBold',
